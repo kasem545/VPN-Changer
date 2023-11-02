@@ -29,7 +29,7 @@ def parse_time_interval(interval_str):
     elif interval_str.endswith("m"):
         return int(interval_str[:-1]) * 60  # Convert minutes to seconds
     else:
-        raise ValueError("Invalid time format. Use 'Ns' or 'Nm.")
+        raise ValueError("Invalid time format. Use 'Ns' or 'Nm, replace N with Number.")
 
 def main():
     parser = argparse.ArgumentParser(description="Change ProtonVPN connection at specified intervals.")
