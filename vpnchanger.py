@@ -32,6 +32,6 @@ try:
     while True:
         change_protonvpn_connection()
         time.sleep(change_interval_seconds)
-        vpndisconnect_command()
 except KeyboardInterrupt:
     print("Terminated by user.")
+    vpndisconnect_command()
