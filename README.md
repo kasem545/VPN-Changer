@@ -1,7 +1,7 @@
 # Installation 
 
 script require protonvpn-cli 
-install guide https://protonvpn.com/support/linux-vpn-tool/#debian
+install guide https://protonvpn.com/support/linux-vpn-tool/
 
 # VPN-Changer
 VPN-Changer is a proton vpn script that automatically change VPN's based on input time
