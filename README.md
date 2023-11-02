@@ -3,7 +3,8 @@ VPN-Changer is a proton vpn script that automatically change VPN's based on inpu
 
 ## usage
 
-```usage: vpnchanger.py [-h] [-f] [-r] [-t] interval {tcp,udp}
+```
+usage: vpnchanger.py [-h] [-f] [-r] [-t] interval {tcp,udp}
 
 Change ProtonVPN connection at specified intervals.
 
