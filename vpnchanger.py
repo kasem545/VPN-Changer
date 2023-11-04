@@ -75,6 +75,7 @@ def main():
             time.sleep(change_interval_seconds)
     except KeyboardInterrupt:
         print("Terminated by the user.")
+    finally:
         vpndisconnect_command()
 
 if __name__ == "__main__":
